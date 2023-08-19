@@ -1,0 +1,58 @@
+@use 'variables';
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    & .hero-img{
+        width: 100%;
+        margin-bottom: 48px;
+        /* display: none; */
+    }
+    & h2{
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+    & p{
+        text-align: center;
+        line-height: 26px;
+        color: variables.$Medium-Gray;
+        margin: 0 16px 24px;
+        font-size: 0.89em;
+    }
+    & button{
+        background-color: variables.$Almost-Black;
+        color: variables.$Almost-White;
+        width: 136px;
+        height: 48px;
+        border-radius: 15px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 52px;
+        &:hover{
+             background-color: variables.$Almost-White;
+             color: variables.$Almost-Black;
+             border: 1px solid variables.$Almost-Black;
+        }
+    }
+    & .logos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 16px;
+        margin-bottom: 96px;
+    }
+    & .databiz{
+        width: 81px;
+    }
+    & .audiophile{
+        width: 52px;
+    }
+    & .meet{
+        width: 64px;
+    }
+    & .maker{
+        width: 59px;
+    }
+}
+

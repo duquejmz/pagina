@@ -1,0 +1,24 @@
+@use 'variables';
+
+body{
+    font-family: variables.$Font;
+    background-color: variables.$Almost-White;
+    color: variables.$Almost-Black;
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: variables.$Almost-White;
+    border: none;
+    cursor: pointer;
+    color: variables.$Medium-Gray;
+    font-size: 1em;
+    font-family: variables.$Font;
+}
+

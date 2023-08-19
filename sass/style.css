@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Poppins:wght@300&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: hsl(0, 0%, 98%);
+  border: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 41%);
+  font-size: 1em;
+  font-family: "Epilogue", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 16px 24px;
+}
+header menu {
+  display: none;
+  cursor: pointer;
+}
+header menu nav {
+  display: none;
+  color: hsl(0, 0%, 41%);
+}
+header menu nav .back {
+  background-color: hsl(0, 0%, 41%);
+  opacity: 0.75px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 780px;
+}
+header menu nav .front {
+  background-color: hsl(0, 0%, 98%);
+  width: 240px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 780px;
+  padding: 20px;
+}
+header menu nav .close-img {
+  text-align: right;
+  cursor: pointer;
+}
+header menu nav li {
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+header menu nav .features-ul {
+  margin-left: 28px;
+  display: none;
+}
+header menu nav .company-ul {
+  margin-left: 28px;
+  display: none;
+}
+header menu nav .submenu-btn {
+  width: 110px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+header menu nav .btns-container {
+  position: absolute;
+  bottom: 124px;
+}
+header menu nav .login-btn {
+  margin: 0 auto 16px;
+  display: block;
+}
+header menu nav .register-btn {
+  border: 1px solid hsl(0, 0%, 8%);
+  width: 195px;
+  height: 42px;
+  border-radius: 14px;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+main .hero-img {
+  width: 100%;
+  margin-bottom: 48px;
+  /* display: none; */
+}
+main h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+main p {
+  text-align: center;
+  line-height: 26px;
+  color: hsl(0, 0%, 41%);
+  margin: 0 16px 24px;
+  font-size: 0.89em;
+}
+main button {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  width: 136px;
+  height: 48px;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+main button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 0%, 8%);
+}
+main .logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-bottom: 96px;
+}
+main .databiz {
+  width: 81px;
+}
+main .audiophile {
+  width: 52px;
+}
+main .meet {
+  width: 64px;
+}
+main .maker {
+  width: 59px;
+}/*# sourceMappingURL=style.css.map */
