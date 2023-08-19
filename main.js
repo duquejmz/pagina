@@ -1,6 +1,6 @@
 const menu = document.querySelector('#menu');
 const closeBtn = document.querySelector('#close-btn');
-const navbar = document.getElementById('navbar')
+const navbar = document.querySelector('#navbar')
 
 menu.addEventListener('click', ()=>{
     navbar.style.display = 'block'
